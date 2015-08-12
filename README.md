@@ -1,5 +1,6 @@
 # lin-remoteupdate
 These scripts can update multiple remote Linux machines over SSH.
+Currently only works on servers which support apt-get.
 
 ## Prerequisites
 The scripts require sshpass (http://sourceforge.net/projects/sshpass/).
