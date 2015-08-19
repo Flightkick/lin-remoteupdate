@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "$1" | sudo -S apt-get update -y
-echo "$1" | sudo -S apt-get upgrade -y
 echo "$1" | sudo -S apt-get dist-upgrade -y
 echo "$1" | sudo -S apt-get autoremove -y
 echo "$1" | sudo -S apt-get clean
